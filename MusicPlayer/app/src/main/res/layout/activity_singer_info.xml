@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingerInfoActivity">
+
+    <LinearLayout
+        android:id="@+id/info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/Azure">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@mipmap/search_background">
+
+            <ImageView
+                android:id="@+id/back_Iv"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/btn_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="歌手简介"
+                android:textStyle="bold"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="25sp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/music_Iv"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/zhoujielun"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+            <TextView
+            android:id="@+id/info_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周杰伦"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/info_tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="主要作品"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/work_background"/>
+
+        <TextView
+            android:id="@+id/info_tv_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="《七里香》、《花海》、《青花瓷》、《晴天》"
+            android:textStyle="normal"
+            android:textColor="@color/DarkBlue"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="主要成就"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/success_background"/>
+
+        <TextView
+            android:id="@+id/info_tv_achievement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="四届世界音乐大奖最畅销亚洲艺人、中华区8次年度销量冠军（最多）、悉尼演唱会票房美国公告牌第二、
+            美国CNN亚洲最具影响力人物、2012年福布斯中国名人榜第一"
+            android:textStyle="normal"
+            android:textColor="@color/DarkBlue"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="20dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
